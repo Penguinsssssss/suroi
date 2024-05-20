@@ -38,7 +38,7 @@ export const Armors = ObjectDefinitions.create<ArmorDefinition>()(
             "helmet_factory",
             {
                 level: 1,
-                damageReduction: 0.1
+                damageReduction: 0.2
             },
             "Basic"
         ),
@@ -46,7 +46,7 @@ export const Armors = ObjectDefinitions.create<ArmorDefinition>()(
             "helmet_factory",
             {
                 level: 2,
-                damageReduction: 0.15
+                damageReduction: 0.25
             },
             "Regular"
         ),
@@ -54,7 +54,7 @@ export const Armors = ObjectDefinitions.create<ArmorDefinition>()(
             "helmet_factory",
             {
                 level: 3,
-                damageReduction: 0.2
+                damageReduction: 0.3
             },
             "Tactical"
         ),
@@ -66,7 +66,7 @@ export const Armors = ObjectDefinitions.create<ArmorDefinition>()(
             "vest_factory",
             {
                 level: 1,
-                damageReduction: 0.2
+                damageReduction: 0.25
             },
             "Basic"
         ),
@@ -82,7 +82,7 @@ export const Armors = ObjectDefinitions.create<ArmorDefinition>()(
             "vest_factory",
             {
                 level: 3,
-                damageReduction: 0.45
+                damageReduction: 0.4
             },
             "Tactical"
         )
